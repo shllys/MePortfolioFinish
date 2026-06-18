@@ -108,7 +108,7 @@ function Contact_me(props: ContactProps) {
         priority
         unoptimized
       />
-      <p className="m-2 text-sm">{props.link}</p>
+      <p className="my-1 mx-2 text-sm">{props.link}</p>
     </div>
   );
 }
