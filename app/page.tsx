@@ -88,7 +88,7 @@ export default function Home() {
                   <SkillBar
                     year="1 Año Exp."
                     name="Next.js"
-                    img="next.png"
+                    img="Next.png"
                     borderColor="border-blue-950"
                     cantidad="w-32"
                   />
@@ -109,7 +109,7 @@ export default function Home() {
                   <SkillBar
                     year="-1 Año Exp."
                     name="TypeScript"
-                    img="typescript.png"
+                    img="Typescript.png"
                     borderColor="border-blue-500"
                     cantidad="w-17"
                   />
