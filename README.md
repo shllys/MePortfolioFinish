@@ -8,7 +8,7 @@
   <p>
     <a href="https://www.linkedin.com/in/mishelis-y-martinez/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
     <a href="mailto:Shllygp17.8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-    <a href="[TU_ENLACE_DE_DRIVE_AQUI](https://drive.google.com/file/d/1Wtco7JEKgOwlp4lsV-Ha0Vl94KOmc2-P/view?usp=sharing)"><img src="https://img.shields.io/badge/Descargar_CV-🚀-004085?style=for-the-badge" alt="CV"></a>
+    <a href="https://drive.google.com/file/d/1Wtco7JEKgOwlp4lsV-Ha0Vl94KOmc2-P/view?usp=sharing"><img src="https://img.shields.io/badge/Descargar_CV-🚀-004085?style=for-the-badge" alt="CV"></a>
   </p>
 </div>
 
@@ -49,10 +49,10 @@ Soy una desarrolladora Front-End Jr. con un enfoque híbrido en el **Diseño de 
 ### 📊 Mis Estadísticas de GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mishelis&show_icons=true&theme=tokyonight&count_private=true" alt="Estadísticas de GitHub de Mishelis" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mishelis&layout=compact&theme=tokyonight" alt="Lenguajes más usados" width="48%">
+  <img src="https://github-readme-stats.vercel.app/api?username=shllys&show_icons=true&theme=tokyonight&count_private=true" alt="Estadísticas de GitHub de Mishelis" width="48%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shllys&layout=compact&theme=tokyonight" alt="Lenguajes más usados" width="48%">
 </p>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mishelis&theme=tokyonight" alt="Racha de commits" width="97%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shllys&theme=tokyonight" alt="Racha de commits" width="97%">
 </div>
