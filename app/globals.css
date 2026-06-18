@@ -1,26 +1,163 @@
+/* globals.css */
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Smooch+Sans:wght@100..900&display=swap");
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-image: url(/img/Espada.png);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Registramos las fuentes para usarlas como clases font-itim y font-smooch */
+  --font-itim: "Itim", cursive;
+  --font-smooch: "Smooch Sans", sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+@import "tailwindcss"; /* */
+
+@layer utilities {
+  /* Ocultar scrollbar para Chrome, Safari y Opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Ocultar scrollbar para IE, Edge y Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: 0px; /* Firefox */
+  }
+
+  .contact-clicked {
+    animation: glow-rotate 0.6s ease-in-out forwards;
+    border-color: #38bdf8;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.65);
+    transform: rotate(0deg);
+    will-change: transform, box-shadow, border-color;
+  }
+
+  @keyframes glow-rotate {
+    0% {
+      transform: rotate(0deg);
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.35);
+      border-color: #60a5fa;
+    }
+    40% {
+      transform: rotate(8deg);
+      box-shadow: 0 0 24px rgba(56, 189, 248, 0.95);
+      border-color: #22d3ee;
+    }
+    80% {
+      transform: rotate(-5deg);
+      box-shadow: 0 0 18px rgba(56, 189, 248, 0.8);
+      border-color: #38bdf8;
+    }
+    100% {
+      transform: rotate(0deg);
+      box-shadow: 0 0 14px rgba(56, 189, 248, 0.7);
+      border-color: #38bdf8;
+    }
+  }
+}
+
+/* Card 3D rotation utilities */
+.card-3d {
+  perspective: 1000px;
+}
+.card-inner {
+  position: relative;
+  width: 100%;
+  transition: transform 0.7s ease;
+  transform-style: preserve-3d;
+}
+.card-3d:hover .card-inner {
+  transform: rotateX(180deg);
+}
+.card-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+}
+.card-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateX(180deg);
+}
+
+.active {
+  width: 1.7rem;
+  height: 3.5rem;
+  padding: 10px 12px;
+  margin-bottom: -25px;
+  position: relative;
+  border-radius: 50px 0 0 50px;
+  background-color: #dfdfdf;
+  left: 0.4rem;
+  top: -1.3em;
+  mix-blend-mode: overlay;
+  transition: all 0.3s ease-in-out;
+}
+
+.option-off {
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+.option-on {
+  width: 3rem;
+  height: 3rem;
+  padding: 10px 12px;
+  margin: 0px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #ffffff;
+  left: -0.5rem;
+  top: -0.25em;
+}
+.fade-carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: fade 12s infinite;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide:nth-child(1) {
+  animation-delay: 0s;
+}
+.slide:nth-child(2) {
+  animation-delay: 4s;
+}
+.slide:nth-child(3) {
+  animation-delay: 8s;
+}
+.slide:nth-child(4) {
+  animation-delay: 12s;
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  8%,
+  25% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+}
+
+.fade-carousel:hover .slide {
+  animation-play-state: paused;
 }

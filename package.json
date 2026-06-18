@@ -9,9 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "framer-motion": "^12.34.3",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "scrollreveal": "^4.0.9"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -22,5 +24,13 @@
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "description": "La definitiva",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shllys"
+  },
+  "author": "",
+  "license": "ISC"
 }
