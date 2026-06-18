@@ -1,58 +1,58 @@
 <div align="center">
-  <!-- Aquí irá el banner que vas a diseñar en Figma (Sube la imagen a tu repositorio y cambia la ruta) -->
-  <img src="./banner-portfolio.png" alt="Mishelis Martinez Banner" width="100%">
-
-  <h1>👋 ¡Hola! Soy Mishelis Y. Martínez Robinson</h1>
-  <p><strong>Web Developer Jr. & UI Designer</strong> basada en Caracas, Venezuela</p>
+  <h1>✨ Mi Portafolio Personal</h1>
+  <p>Diseño de interfaz y desarrollo front-end de mi sitio web profesional</p>
 
   <p>
-    <a href="https://www.linkedin.com/in/mishelis-y-martinez/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="mailto:Shllygp17.8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-    <a href="https://drive.google.com/file/d/1Wtco7JEKgOwlp4lsV-Ha0Vl94KOmc2-P/view?usp=sharing"><img src="https://img.shields.io/badge/Descargar_CV-🚀-004085?style=for-the-badge" alt="CV"></a>
+    <a href="TU_ENLACE_DE_LA_WEB_EN_VIVO"><img src="https://img.shields.io/badge/Ver_Sitio_Web-Live-brightgreen?style=for-the-badge&logo=vercel" alt="Sitio Web"></a>
+    <img src="https://img.shields.io/badge/Status-En_Desarrollo-orange?style=for-the-badge" alt="Status">
   </p>
 </div>
 
 ---
 
-### 🚀 Sobre Mí
+### 📋 Descripción del Proyecto
 
-Soy una desarrolladora Front-End Jr. con un enfoque híbrido en el **Diseño de Interfaces (UI)**. Mi pasión es conectar la lógica estructurada del código con experiencias visuales interactivas, fluidas y atractivas. Cuento con experiencia real en entornos corporativos administrando y automatizando flujos de trabajo en **Odoo ERP**, y actualmente construyo aplicaciones web modernas usando la arquitectura de **Next.js y Supabase**.
-
-* 🎨 **UI/UX:** Traduzco ideas complejas en componentes y sistemas de diseño limpios.
-* ⚙️ **Código:** Escribo código mantenible y robusto enfocado en la optimización del rendimiento.
-* 🦾 **Mentalidad:** Autodidacta, orientada al detalle y enfocada en la resolución ágil de problemas.
+Este repositorio contiene el código fuente de mi portafolio profesional. El objetivo de este proyecto es consolidar mis habilidades como **Desarrolladora Front-End y Diseñadora UI**, creando una experiencia de usuario rápida, responsiva y estéticamente atractiva para exponer mis proyectos y trayectoria.
 
 ---
 
-### 🛠️ Mi Stack Tecnológico
+### 🛠️ Tecnologías Utilizadas
 
-#### Lenguajes y Frameworks
-<p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-</p>
-
-#### Herramientas y Plataformas
-<p align="left">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
-  <img src="https://img.shields.io/badge/Odoo-875A7B?style=for-the-badge&logo=odoo&logoColor=white" alt="Odoo">
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
-  <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="Blender">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-</p>
+*   **Framework:** Next.js (App Router) para el enrutamiento dinámico y optimización de rendimiento.
+*   **Lenguaje:** TypeScript para asegurar un tipado estático estricto y prevenir errores.
+*   **Estilos:** Tailwind CSS para una maquetación fluida, responsiva y eficiente.
+*   **Diseño:** Figma para la creación del sistema de diseño, componentes y prototipado UI previo.
 
 ---
 
-### 📊 Mis Estadísticas de GitHub
+### 🚀 Características Principales
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shllys&show_icons=true&theme=tokyonight&count_private=true" alt="Estadísticas de GitHub de Mishelis" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shllys&layout=compact&theme=tokyonight" alt="Lenguajes más usados" width="48%">
-</p>
+*   **Diseño Híbrido:** Interfaz totalmente responsiva adaptada para móviles, tablets y escritorio.
+*   **Rendimiento Optimizado:** Aprovechamiento de los componentes de servidor de Next.js para una carga ultra rápida.
+*   **Sección "Acerca de Mí":** Espacio dedicado a mi perfil profesional, habilidades y herramientas.
+*   **Galería de Proyectos:** Sección dinámica para mostrar mis desarrollos clave (como la App de Botánica y mis modelados 3D en Blender).
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shllys&theme=tokyonight" alt="Racha de commits" width="97%">
-</div>
+---
+
+### 🔧 Instalación Local
+
+Si deseas clonar este proyecto y ejecutarlo en tu entorno local, sigue estos pasos:
+
+1. Clonar el repositorio:
+\`\`\`bash
+git clone https://github.com/tu-usuario/tu-repositorio-portafolio.git
+\`\`\`
+
+2. Instalar las dependencias:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Iniciar el servidor de desarrollo:
+\`\`\`bash
+npm run dev
+\`\`\`
+
+4. Abrir [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+
