@@ -102,13 +102,13 @@ function Contact_me(props: ContactProps) {
       <Image
         src={`/img/${props.name}.png`}
         alt=""
-        width={45}
-        height={45}
-        className="object-cover mx-1 size-8"
+        width={40}
+        height={40}
+        className="object-cover mx-1 size-7"
         priority
         unoptimized
       />
-      <p className="my-1 mx-2 text-sm">{props.link}</p>
+      <p className="mx-3 text-sm">{props.link}</p>
     </div>
   );
 }

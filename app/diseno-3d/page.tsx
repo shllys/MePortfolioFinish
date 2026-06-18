@@ -29,9 +29,9 @@ export default function webDevelop() {
         </div>
 
         <Dcards
-          img1="ball3d1.png"
-          img2="ball3d2.png"
-          img3="ball3d3.png"
+          img1="Ball3d1.png"
+          img2="Ball3d2.png"
+          img3="Ball3d3.png"
           title1="Modelado y Composición 3D: Pokéball Concept | Blender"
           desc1="- Exploración de Texturas y Materiales: Desarrollé un modelo tridimensional de una Pokéball utilizando Blender, explorando de forma autodidacta el motor de sombreadores de la herramienta para aplicar texturas, acabados superficiales y mapas de relieve."
           desc2={`- Estudio de Iluminación y Renderizado: Configuré una escena con iluminación controlada para estudiar el comportamiento de las sombras y la proyección de reflejos realistas sobre superficies curvas, utilizando un flujo de trabajo optimizado para renderizado rápido.
