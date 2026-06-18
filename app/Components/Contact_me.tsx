@@ -100,7 +100,7 @@ function Contact_me(props: ContactProps) {
       onClick={handleClick}
     >
       <Image
-        src={`img/${props.name}.png`}
+        src={`/img/${props.name}.png`}
         alt=""
         width={45}
         height={45}

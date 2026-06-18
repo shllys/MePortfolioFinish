@@ -13,7 +13,7 @@ function Cards(props: CardsProps) {
     <div className="h-48 w-70 mx-1 bg-[#0B1838b0] rounded-2xl">
       <div className="relative bg-[#ffffff20] h-30 w-full border-3 border-[#0B1838] rounded-2xl  overflow-hidden">
         <Image
-          src={`/Img/${props.img}`}
+          src={`/img/${props.img}`}
           alt={props.title}
           width={400}
           height={230}

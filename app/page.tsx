@@ -145,7 +145,7 @@ export default function Home() {
           <GridBase order="col-span-1 row-span-2 md:row-span-1 mb-5 lg:mb-0">
             <div className="border-2 border-[C8DDF5]/20 w-[17%] h-[32%] absolute rounded-br-2xl rounded-tl-2xl -top-0.5 -left-0.5">
               <Image
-                src="img/Info.png"
+                src="/img/Info.png"
                 alt="Contacto"
                 width={50}
                 height={70}
@@ -177,7 +177,7 @@ export default function Home() {
           <GridBase order="col-span-1 row-span-2 md:row-span-1 mb-5 lg:mb-0">
             <div className="border-2 border-[C8DDF5]/20 w-[17%] h-[32%] absolute rounded-br-2xl rounded-tl-2xl -top-0.5 -left-0.5">
               <Image
-                src="img/Info.png"
+                src="/img/Info.png"
                 alt="Contacto"
                 width={50}
                 height={70}
