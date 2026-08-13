@@ -73,7 +73,7 @@ function Cards_me(props: { pages: InfoPage[] }) {
             </div>
           </div>
           {/* LADO TRASERO */}
-          <div className="absolute top-13 left-23 inset-0 w-30 h-10 backface-hidden transform-[rotateY(180deg)] rounded-2xl flex items-center justify-center p-2 border border-[#C8DDF540]">
+          <div className="absolute top-13 left-28 inset-0 w-30 h-10 backface-hidden transform-[rotateY(180deg)] rounded-2xl flex items-center justify-center p-2 border border-[#C8DDF540]">
             <p className="text-white font-smo text-sm text-center">
               + Ver detalles +
             </p>

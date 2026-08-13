@@ -49,7 +49,7 @@ export default function RootLayout({
                 <div className="text-2xl font-itim text-amber-50 flex items-center gap-2">
                   Level N°
                   <span className="rounded-full border-2 px-3 py-1 text-sm flex items-center justify-center border-[#C8DDF560] bg-[#0B183840]">
-                    25%
+                    47%
                   </span>
                 </div>
                 <hr className="w-32 my-2 border-[#C8DDF560]/50" />
@@ -60,7 +60,7 @@ export default function RootLayout({
             </div>
           </header>
 
-          <main className="relative z-10 w-full max-w-6xl flex-1 flex items-start justify-center p-5 lg:p-10">
+          <main className="relative z-10 w-full max-w-7xl flex-1 flex items-start justify-center p-5 lg:p-10">
             {children}
           </main>
         </section>
