@@ -9,6 +9,7 @@ interface PcardsProps {
   desc1?: string;
   desc2?: string;
   link?: string;
+  desing?: string;
 }
 
 function Pcards(props: PcardsProps) {
@@ -57,21 +58,33 @@ function Pcards(props: PcardsProps) {
 
         {/* Texto descriptivo */}
         <div className="w-full lg:w-auto lg:flex lg:flex-col justify-center">
-          <h2 className="text-md lg:text-xl font-bold mb-4 text-black bg-[#C8DDF5]/50 backdrop-blur-sm p-4 rounded-lg font-itim text-shadow-lg">
+          <h2 className="text-sm lg:text-xl font-bold mb-4 text-black bg-[#C8DDF5]/50 backdrop-blur-sm p-4 rounded-lg font-itim text-shadow-lg">
             {props.title1}
           </h2>
-          <p className="text-sm lg:text-lg backdrop-blur-sm font-smooch font-semibold text-black leading-relaxed max-w-full p-4 rounded-lg text-shadow-lg bg-[#C8DDF5]/50">
+          <p className="text-sm lg:text-xl backdrop-blur-sm font-smooch font-semibold text-black leading-relaxed max-w-full p-4 rounded-lg text-shadow-lg bg-[#C8DDF5]/50">
             {props.desc1}
           </p>
         </div>
       </section>
-      <div className="mx-0 lg:mx-auto mt-5 lg:mt-6 w-full max-w-4xl">
-        <p className="text-sm lg:text-lg backdrop-blur-sm font-smooch font-semibold text-black leading-relaxed p-4 rounded-lg text-shadow-lg whitespace-pre-line bg-[#C8DDF5]/50">
+      <div className="mx-0 lg:mx-auto mt-5 lg:mt-6 w-full max-w-5xl">
+        <p className="text-sm lg:text-xl backdrop-blur-sm font-smooch font-semibold text-black leading-relaxed p-4 rounded-lg text-shadow-lg whitespace-pre-line bg-[#C8DDF5]/50">
           {props.desc2}
         </p>
       </div>
 
-      <div className="flex justify-start lg:justify-end">
+      <div className="flex justify-start lg:justify-between w-full">
+        {props.desing === "#" ? (
+          <span className=""></span>
+        ) : (
+          <a
+            href={props.desing}
+            rel="noopener noreferrer"
+            className="mt-6 text-[#C8DDF5] hover:text-[#ffffff] transition-colors drop-shadow-lg drop-shadow-fuchsia-200 px-4 py-1 font-bold border rounded-2xl bg-fuchsia-400/20"
+          >
+            Ver Diseño +
+          </a>
+        )}
+
         {props.link === "#" ? (
           <span className="mt-6 text-esmerald-400 drop-shadow-lg drop-shadow-emerald-200 px-4 py-1 font-bold border rounded-2xl bg-emerald-500/30 text-lg">
             En desarrollo

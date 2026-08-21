@@ -15,7 +15,7 @@ export const cardsData: ProjectCard[] = [
     slug: "web-develop",
     img: "Web.png",
     description: "Desarrollo web...",
-    activo: true,
+    activo: false,
     contenido: true,
   },
   {
@@ -24,7 +24,7 @@ export const cardsData: ProjectCard[] = [
     slug: "diseno-3d",
     img: "Blender.png",
     description: "Modelado 3D...",
-    activo: false,
+    activo: true,
     contenido: true,
   },
   {
@@ -43,6 +43,6 @@ export const cardsData: ProjectCard[] = [
     img: "Design.png",
     description: "Diseño UX/UI...",
     activo: false,
-    contenido: false,
+    contenido: true,
   },
 ];

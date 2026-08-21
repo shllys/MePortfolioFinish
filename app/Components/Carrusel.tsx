@@ -67,14 +67,16 @@ function Carrusel({ click }: { click: (p: ProjectCard) => void }) {
         PORTFOLIO
       </h2>
 
-      <div className="relative flex items-center w-full max-w-5xl overflow-hidden h-80 group py-4">
+      <div
+        onPointerEnter={() => (isPaused.current = true)}
+        onPointerLeave={() => (isPaused.current = false)}
+        className="relative flex items-center w-full max-w-5xl overflow-hidden h-80 group py-4"
+      >
         {/* Botón Izquierdo */}
         <button
           type="button"
           aria-label="Scroll left"
           onClick={() => scroll("left")}
-          onPointerDown={() => scroll("left")}
-          style={{ pointerEvents: "auto" }}
           className="cursor-pointer absolute left-0 z-30 size-10 rounded-full bg-[#0B1838] text-white flex items-center justify-center shadow-lg opacity-20 focus:opacity-100 group-hover:opacity-100 transition-opacity"
         >
           {"<"}
@@ -83,8 +85,6 @@ function Carrusel({ click }: { click: (p: ProjectCard) => void }) {
         {/* Contenedor del Carrusel */}
         <div
           ref={carouselRef}
-          onMouseEnter={() => (isPaused.current = true)}
-          onMouseLeave={() => (isPaused.current = false)}
           className="h-[250px] w-full flex items-center overflow-x-auto scrollbar-hide whitespace-nowrap px-3"
         >
           {marqueeCards.map((project, index) => (
@@ -93,7 +93,7 @@ function Carrusel({ click }: { click: (p: ProjectCard) => void }) {
               onClick={() => click(project)}
               className="inline-block shrink-0 cursor-pointer hover:scale-105 transition-transform duration-300 relative z-10 p-1"
             >
-              <Cards {...project} lag1="" lag2="" lag3="" />
+              <Cards {...project} />
             </div>
           ))}
         </div>
@@ -103,8 +103,6 @@ function Carrusel({ click }: { click: (p: ProjectCard) => void }) {
           type="button"
           aria-label="Scroll right"
           onClick={() => scroll("right")}
-          onPointerDown={() => scroll("right")}
-          style={{ pointerEvents: "auto" }}
           className="cursor-pointer absolute right-0 z-30 size-10 rounded-full bg-[#0B1838] text-white flex items-center justify-center shadow-lg opacity-20 focus:opacity-100 group-hover:opacity-100 transition-opacity"
         >
           {">"}

@@ -3,9 +3,6 @@ import Image from "next/image";
 interface CardsProps {
   title: string;
   img: string;
-  lag1: string;
-  lag2: string;
-  lag3: string;
 }
 
 function Cards(props: CardsProps) {
