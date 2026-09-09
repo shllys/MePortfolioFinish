@@ -129,7 +129,7 @@ export default function Home() {
           {/* Bar_Img */}
           <GridBase
             order="col-span-2 row-span-1 mb-5 lg:mb-0"
-            img="bg-[url(/img/Ruinas1.png)] bg-cover bg-center border-4 border-[#C8DDF560]"
+            img="bg-[url(/img/Ruinas1.webp)] bg-cover bg-center border-4 border-[#C8DDF560]"
           />
 
           {/* --------------------------------- */}

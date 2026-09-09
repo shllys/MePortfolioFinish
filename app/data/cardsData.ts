@@ -22,7 +22,7 @@ export const cardsData: ProjectCard[] = [
     id: "diseno-3d",
     title: "Diseño 3D",
     slug: "diseno-3d",
-    img: "Blender.png",
+    img: "Blender.webp",
     description: "Modelado 3D...",
     activo: true,
     contenido: true,

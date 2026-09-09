@@ -1,16 +1,17 @@
 import Link from "next/link";
 import Dcards from "./Dcards";
 
-export default function webDevelop() {
+export default function diseno() {
   const title = "Diseño 3D";
 
   return (
     <main className="min-h-screen border-2 border-[#C8DDF550] text-white p-4 md:p-8 flex flex-col items-center rounded-2xl">
-      <div className="max-w-2xs md:max-w-5xl w-full">
-        <div className="relative rounded-2xl w-full bg-[url('/img/blender_bg.png')] bg-cover bg-center px-5">
+      <div className="max-w-2xs md:max-w-6xl w-full">
+        {/* Banner de Encabezado */}
+        <div className="relative rounded-2xl w-full bg-[url('/img/blender_bg.webp')] bg-cover bg-center px-5">
           <Link
             href="/"
-            className="text-[#3A60A0] hover:text-[#122447] transition-colors my-5 inline-block"
+            className="text-[#3A60A0] hover:text-[#122447] transition-colors my-5 inline-block font-semibold"
           >
             ← Back
           </Link>
@@ -21,24 +22,35 @@ export default function webDevelop() {
         </div>
 
         <div>
-          <hr />
+          <hr className="border-white/20" />
           <p className="text-3xl text-center py-5 font-smooch">
             Proyectos Personales
           </p>
-          <hr />
+          <hr className="border-white/20" />
         </div>
 
+        {/* TARJETA EXISTENTE DE POKÉBALL */}
         <Dcards
-          img1="Ball3d1.png"
-          img2="Ball3d2.png"
-          img3="Ball3d3.png"
-          title1="Modelado y Composición 3D: Pokéball Concept | Blender"
-          desc1="- Exploración de Texturas y Materiales: Desarrollé un modelo tridimensional de una Pokéball utilizando Blender, explorando de forma autodidacta el motor de sombreadores de la herramienta para aplicar texturas, acabados superficiales y mapas de relieve."
-          desc2={`- Estudio de Iluminación y Renderizado: Configuré una escena con iluminación controlada para estudiar el comportamiento de las sombras y la proyección de reflejos realistas sobre superficies curvas, utilizando un flujo de trabajo optimizado para renderizado rápido.
-          - Curva de Aprendizaje Activa: Superé el reto de dominar la interfaz técnica y el flujo de atajos de teclado (shortcuts) de Blender, fortaleciendo mis habilidades de diseño espacial y volumétrico para la futura creación de recursos gráficos interactivos en la web.`}
-          link="#"
+          img1="Hongos.webp"
+          img01="HongosM.webp"
+          img2="Bruja.webp"
+          img02="BrujaM.webp"
+          img3="Burguers.webp"
+          img03="BurguersM.webp"
+          asset="Stylized Low-Poly"
+          title1="Estudios de Renders Low-Poly: Asset Collection | Blender"
+          desc1={`- Fundamentos de Geometría & Silueta: Modelado desde primitivas básicas con enfoque en optimización poligonal, extrusiones limpias y legibilidad de formas en props estilizados (Hamburguesa, Hongos Mágicos y Sombrero de Bruja). 
+          
+          - Teoría del Color & Shading Estilizado: Aplicación de paletas vibrantes con contrastes bien definidos y sombreados planos/suaves para lograr una estética fantástica, cozy e intuitiva.
+          
+          - Esquema de Iluminación & Composición: Configuración de estudios de luz neutros con sombreado suave (soft shadows) para resaltar los volúmenes, la tridimensionalidad y la jerarquía visual de cada elemento.`}
+          desc2={`- Texto Alternativo Resumido
+          "Colección de props estilizados creada en Blender para dominar las bases del modelado Low-Poly, el estudio de siluetas y la iluminación de estudio. Proyecto enfocado en la simplicidad poligonal y la aplicación de color para generar assets de videojuegos con fuerte identidad visual."
+          
+          Blender 3D • Low-Poly • Prop Design • Lighting Study • Asset Pack`}
+          link="https://www.instagram.com/shellys.axel/"
+          desing="#"
         />
-        {/* <Pcards row="flex-row-reverse" /> */}
       </div>
     </main>
   );

@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 :root {
-  --bg-image: url(/img/Espada.png);
+  --bg-image: url(/img/Espada.webp);
 }
 
 @theme inline {
